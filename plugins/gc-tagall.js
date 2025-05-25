@@ -11,7 +11,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args, co
 
   const pesan = args.join` `;
   const oi = `*» INFO :* ${pesan}`;
-  let teks = `*!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄  ۪꒰ \`⡞᪲=͟͟͞𝑹𝒆𝒎𝒃𝒐𝒕ׁ ≼᳞ׄ\` ꒱  ۟  𝅄 ┄\n`;
+  let teks = `*!  MENCION GENERAL  !*\n  *PARA ${participants.length} MIEMBROS* 🗣️\n\n ${oi}\n\n╭  ┄ 𝅄  ۪꒰ \`⡞᪲=͟͟͞𝙊𝘽𝙄𝙏𝙊 ≼᳞ׄ\` ꒱  ۟  𝅄 ┄\n`;
   for (const mem of participants) {
     teks += `┊${customEmoji} @${mem.id.split('@')[0]}\n`;
   }
