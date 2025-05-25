@@ -46,7 +46,7 @@ let userNationalityData = api.data.result;
     
     let sn = createHash('md5').update(m.sender).digest('hex')
     let regbot = `┏━━━━━━━━━━━━━━━━━━⬣
-┃⋄ *🎩 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐨 - 𝐑𝐞𝐦𝐛𝐨𝐭*
+┃⋄ *🎩 𝐑𝐞𝐠𝐢𝐬𝐭𝐫𝐨 - Obito𝐛𝐨𝐭*
 ┗━━━━━━━━━━━━━━━━━━⬣\n`
     regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
     regbot += `「🫣」𝐍𝐨𝐦𝐛𝐫𝐞: ${name}\n`
@@ -55,7 +55,7 @@ let userNationalityData = api.data.result;
     regbot += `•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•\n`
     regbot += `「💙」𝐑𝐞𝐜𝐨𝐦𝐩𝐞𝐧𝐬𝐚𝐬:\n> `
     regbot += `• 15 Estrellas 🌟\n> `
-    regbot += `• 5 RemCoins 😽\n> `
+    regbot += `• 5 obiCoins 😽\n> `
     regbot += `• 245 Experiencia 💸\n> `
     regbot += `• 12 Tokens 💰\n`
     regbot += `꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷\n> `
@@ -69,7 +69,7 @@ let userNationalityData = api.data.result;
                 title: '⊱『🦁𝆺𝅥 𝗥𝗘𝗚𝗜𝗦𝗧𝗥𝗔𝗗𝗢(𝗔) 𝆹𝅥🦁』⊰',
                 body: dev,
                 thumbnailUrl: 'https://files.catbox.moe/ojsmx7.jpeg',
-                sourceUrl: 'https://whatsapp.com/channel/0029VapASNA9cDDT9yfhXr30',
+                sourceUrl: '',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true
@@ -77,7 +77,7 @@ let userNationalityData = api.data.result;
         }
     }, { quoted: m });
 
-    let channelID = '120363387375075395@newsletter';
+    let channelID = '';
     let messageContent = `◉ *Usuarios:* ${m.pushName || 'Anónimo'}\n◉ *País:* ${userNationality || 'Desconocido'}\n◉ *Verificación:* ${user.name}\n◉ *Edad:* ${age} años\n◉ *Número de serie:*\n⤷ ${sn}\n\n😽 *Recompensa:* 600 Remcoins 😼\n*¡Bienvenido/a al bot!*`;
     
     await conn.sendMessage(channelID, {
