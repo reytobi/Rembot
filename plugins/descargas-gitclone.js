@@ -45,9 +45,9 @@ await m.react(done)
 await m.react(error)
   }
 }
-handler.help = ['gitclone *<url git>*']
-handler.tags = ['descargas']
-handler.command = /^(gitclone)$/i
+handler.help = ['gitc *<url git>*']
+handler.tags = ['descar']
+handler.command = /^(gitclo)$/i
 handler.register = true 
 handler.estrellas = 16;
 
