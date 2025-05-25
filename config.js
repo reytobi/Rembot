@@ -32,17 +32,17 @@ global.prems = []
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = '【✧】𝐑𝐞𝐦𝐁𝐨𝐭࿐'
-global.botname = '(✦◠‿◠)𝐑𝐞𝐦𝐁𝐨𝐭'
-global.wm = '⏤͟͟͞͞⋆⬪࣪ꥈ🌟★ ׄ ꒱ 𝐑𝐞𝐦𝐁𝐨𝐭 ୭'
-global.author = '꒷꒦𖥻𝐁𝐲 𝑻𝒐𝒃𝒊𓆪'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Kara Team'
+global.packname = '𝙊𝘽𝙄𝙏𝙊 𝘽𝙊𝙏'
+global.botname = '𝙊𝘽𝙄𝙏𝙊 𝘽𝙊𝙏'
+global.wm = '⏤͟͟͞͞⋆⬪࣪ꥈ🌟★ ׄ ꒱ 𝙊𝘽𝙄𝙏𝙊𝘽𝙊𝙏𝐭 ୭'
+global.author = '꒷꒦𖥻𝐁𝐲 𝙎𝙊𝙈𝘽𝙍𝘼𓆪'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ C.137 team'
 global.errorm = '𝐄𝐫𝐫𝐨𝐫: ${error.message}'
 global.errorm2 = '✰ 𝐀 𝐎𝐜𝐮𝐫𝐫𝐢𝐝𝐨 𝐔𝐧 𝐄𝐫𝐫𝐨𝐫, 𝐕𝐮𝐞𝐥𝐯𝐞 𝐌𝐚𝐬 𝐓𝐚𝐫𝐝𝐞 (৹˃̵﹏˂̵৹)'
 global.resp = '𝐀𝐪𝐮𝐢 𝐓𝐢𝐞𝐧𝐞 𝐒𝐮 𝐏𝐞𝐝𝐢𝐝𝐨 〜(^∇^〜)'
 global.espera = '✰ 𝐄𝐬𝐩𝐞𝐫𝐚 𝐔𝐧 𝐌𝐨𝐦𝐞𝐧𝐭𝐨, 𝐄𝐬𝐭𝐚𝐦𝐨 𝐄𝐧𝐯𝐢𝐚𝐧𝐝𝐨 𝐒𝐮 𝐏𝐞𝐝𝐢𝐝𝐨 (✿◠‿◠)'
-global.nombrebot = '𝐑𝐞𝐦𝐁𝐨𝐭'
-global.textbot = `༻𝐑𝐞𝐦 - 𝐁𝐨𝐭༺`
+global.nombrebot = '𝙊𝘽𝙄𝙏𝙊𝘽𝙊𝙏'
+global.textbot = `༻𝙊𝘽𝙄𝙏𝙊 - 𝘽𝙊𝙏༺`
 global.vs = '2.1.0'
 global.publi = '✰𝐒𝐢𝐠𝐮𝐞 𝐄𝐥 𝐂𝐚𝐧𝐚𝐥👇'
 
@@ -63,16 +63,16 @@ global.catalogo = fs.readFileSync('./storage/img/catalogo1.jpg')
 global.crowurl = fs.readFileSync('./storage/img/crowurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
-global.mashach = 'https://whatsapp.com/channel/0029VaQC2KoEquiMvsPDBH3Z'
+global.mashach = ''
 global.mashac = 'wa.me/527421168105*/n• *wa.me/5224312686*/n• *wa.me/5055786568*'
-global.repobot = 'https://github.com/TOBI-12'
-global.grupo = 'https://chat.whatsapp.com/E9j3js91NjYAYQvGW6Et2T'
-global.comu = 'https://chat.whatsapp.com/FHE84TFCPsvGxbZWT89o8j'
-global.channel = 'https://whatsapp.com/channel/0029VaQC2KoEquiMvsPDBH3Z'
-global.insta = 'https://www.instagram.com/tobi00698'
+global.repobot = ''
+global.grupo = ''
+global.comu = ''
+global.channel = ''
+global.insta = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "543876577197-120363317332020195@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👑【✫𝚃𝙴𝙰𝙼  乂 Kara✫】🎩', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
+global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '👑【✫𝚃𝙴𝙰𝙼  乂 C.137✫】🎩', orderTitle: 'Bang', thumbnail: catalogo, sellerJid: '0@s.whatsapp.net'}}}
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
